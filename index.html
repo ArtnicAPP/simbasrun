@@ -1,0 +1,21 @@
+<html>
+    <head></head>
+    <body>
+        <div id="game" style="border: 1px solid black"></div>
+        <script type="text/javascript" src="js/crafty-min.js"></script>
+        <script src="js/floor.js"></script>
+        <script src="js/hud.js"></script>
+        <script src="js/simba.js"></script>
+        <script src="js/obstacles.js"></script>
+        <script src="js/pumba.js"></script>
+        <script src="js/scar.js"></script>
+        <script src="js/gameScene.js"></script>
+        <script src="js/scoreScene.js"></script>
+        <script>
+            //Initial declarations for the game
+            Crafty.init(400,300, document.getElementById('game'));
+            var simba, score, record;
+            Crafty.enterScene("GameScreen");
+        </script>                        
+    </body>
+</html>
